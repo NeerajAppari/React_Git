@@ -1,0 +1,108 @@
+in traditional languages like java and c
+'var' keyowrd can be used for global keyword
+wheareas 'let' only defines locally and cannote be referenced outzide the scope
+
+var and let cannot be defined together in the same block with same names
+
+'const' keywrod is used to chnage the proprty of the object but not the reference
+const object={name:"Jimmy"};
+                      ^
+		      |
+		reference
+object.name="jim";<---property
+
+object="Jimmy"; cannot be changed
+
+function can be decalred by declaration-loads at compile time
+function execute(){
+}
+
+fucntion can be declared  by expression-loads at runtime
+var execute=function name(){
+}
+
+it can also be decalred as arrow function
+var execute=(0 =>{
+}
+
+export-use keyword from different js files
+
+const academy={
+}
+
+export defualt academy
+
+also
+
+export const subject="React";
+
+export const status=()=>{
+}
+
+to import
+
+import academy from'.file_name.js';
+
+also
+
+import {subject} from'.file_name.js';
+import {status} from'.file_name.js';
+
+class- it a blueprint
+
+class c_name{
+constrcutor()-optional
+}
+
+ class with instance of the clss
+
+Const x = new
+c_name();
+
+
+inheritance with clss
+super()
+
+'Spread'-used with array or objects
+used to retrive all values and propeties from one arrya/object into other and is represnted by (...)
+
+ex const arr={1,2,3};
+
+const new_arr={...arr,4};
+
+new_arr
+>(4) {1,2,3,4}
+
+arr
+>(3) {1,2,3}
+
+Rest- it is used with function
+it forms an array of arguments passed to the function
+also represented by (...)
+
+eg funtion (find_sum... numbers)
+{
+
+}
+
+find_sum(10,20,30)
+
+(so what it does is it converts the values from 'find_sum' into array and stores it in 'numbers' )
+
+Destructuring
+
+it is used to extract few elements from the array
+
+ var values=[10,20,30];
+
+[first,,last]=values;
+
+first
+>10
+
+last
+>30
+
+
+jsx looks like html but everything is written in html and it is in like return(
+)
